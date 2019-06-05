@@ -1,0 +1,32 @@
+[
+    {
+        "name": "theme-creator (albert launcher)",
+        "url": "https://albertlauncher.github.io/docs/extensions/widgetboxmodel/themecreator/",
+        "desc": "A tool to create themes for Albert launcher."
+    },
+    {
+        "name": "keypirinha-theme-builder",
+        "url": "https://github.com/Fuhrmann/keypirinha-theme-builder",
+        "desc": "A tool to create themes for Keypirinha launcher."
+    },
+    {
+        "name": "keypirinha-volumecontrol",
+        "url": "https://github.com/Fuhrmann/keypirinha-volumecontrol",
+        "desc": "Increase, decrease, mute or unmute the volume on Windows using Keypirinha."
+    },
+    {
+        "name": "keypirinha-phpdocsearch",
+        "url": "https://github.com/Fuhrmann/keypirinha-phpdocsearch",
+        "desc": "Search for functions, classes and everything else related to the PHP documentation directly from Keypirinha launcher."
+    },
+    {
+        "name": "keypirinha-gitmoji",
+        "url": "https://github.com/Fuhrmann/keypirinha-gitmoji",
+        "desc": "Search for gitmoji and copy them to your clipboard."
+    },
+    {
+        "name": "keypirinha-moviedb",
+        "url": "https://github.com/Fuhrmann/keypirinha-moviedb",
+        "desc": "Search through TMDB (themoviedb.org) for movies, TV shows and people."
+    }
+]
