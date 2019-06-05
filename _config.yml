@@ -80,7 +80,7 @@ theme: cactus
 deploy:
   type: git
   repo: git@github.com:Fuhrmann/ricardof.dev.git
-  branch: published
+  branch: master
 
 theme_config:
   colorscheme: dark
