@@ -79,7 +79,7 @@ theme: cactus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:Fuhrmann/ricardof.dev.git
+  repo: git@github.com:Fuhrmann/fuhrmann.github.io.git
   branch: master
 
 theme_config:
