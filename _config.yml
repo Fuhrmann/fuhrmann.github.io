@@ -5,7 +5,7 @@
 # Site
 title: Ricardo Fuhrmann
 subtitle: 
-description: Desenvolvedor full stack com experiência em desenvolvimento de sistemas, aplicativos e se o assunto for Linux, conte comigo!
+description: Desenvolvedor full stack com experiência em desenvolvimento de sistemas, aplicativos e (quase) tudo relacionado a Linux.
 keywords:
 author: Ricardo Fuhrmann
 language: pt-br
@@ -22,7 +22,7 @@ permalink_defaults:
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
+archive_dir: arquivo
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
