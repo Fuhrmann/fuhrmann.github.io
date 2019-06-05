@@ -8,7 +8,7 @@ Olá, obrigado por visitar! Meu nome é Ricardo Fuhrmann, sou desenvolvedor full
 
 Iniciei minha carreira trabalhando com VB6 há muito tempo atrás, os caminhos mudaram e venho trabalhando e acompanhando a evolução do PHP (e gostando muito!) em todos os trabalhos que tive na área. 
 
-Atualmente minhas funções em meus últimos trabalhos envolvem:
+Atualmente meus últimos trabalhos envolvem:
 
 - Desenvolvimento (front-end e back-end)
 - Entender as regras de negócio
