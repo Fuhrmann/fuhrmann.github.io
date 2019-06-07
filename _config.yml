@@ -84,3 +84,7 @@ deploy:
 
 theme_config:
   colorscheme: dark
+
+sitemap:
+  path: sitemap.xml
+  template: ./node_modules/hexo-generator-sitemap/sitemap.xml
