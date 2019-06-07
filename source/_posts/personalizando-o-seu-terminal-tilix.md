@@ -1,6 +1,7 @@
 ---
 title: Personalizando o seu terminal Tilix
 tags: terminal
+date: 2019-06-04
 ---
 
 ## Introdução
@@ -29,7 +30,41 @@ Como a maioria dos terminais Tilix também dá suporte a personalização da sua
 
 Os temas inclusos no Tilix podem ser encontrados na pasta `/usr/share/tilix/schemes` e você pode criar os seus próprios temas colocando-os na pasta `~/.config/tilix/schemes`. Um exemplo de tema seria:
 
-{% include_code [tilix_tema] [lang:json] tilix_tema.json %}
+```json
+{
+    "name": "MeuTema",
+    "comment": "Um tema personalizado para Tilix",
+    "foreground-color": "#c9cacc",
+    "background-color": "#1d1f21",
+    "use-theme-colors": false,
+    "use-highlight-color": false,
+    "highlight-foreground-color": "#1958a6",
+    "highlight-background-color": "#c9cacc",
+    "use-cursor-color": false,
+    "cursor-foreground-color": "#ffffff",
+    "cursor-background-color": "#efefef",
+    "use-badge-color": true,
+    "badge-color": "#8abeb7",
+    "palette": [
+        "#1d1f20",
+        "#bd3327",
+        "#2bbc8a",
+        "#f99157",
+        "#1f77b3",
+        "#ca99ca",
+        "#6f9a9c",
+        "#eeeeee",
+        "#1d1f20",
+        "#bd3327",
+        "#2bbc8a",
+        "#f99157",
+        "#1f77b3",
+        "#ca99ca",
+        "#6f9a9c",
+        "#eeeeee"
+    ]
+}
+```
 
 Resultando em:
 

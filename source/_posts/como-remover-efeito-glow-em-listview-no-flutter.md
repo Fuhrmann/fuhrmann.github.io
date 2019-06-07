@@ -1,6 +1,7 @@
 ---
 title: Como remover efeito glow em ListView no Flutter
 tags: flutter
+date: 2019-06-07
 ---
 
 ## Introdução
