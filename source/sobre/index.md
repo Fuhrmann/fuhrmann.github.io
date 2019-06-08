@@ -1,7 +1,6 @@
 ---
 title: sobre
 ---
-
 # Sobre
 
 Olá, obrigado por visitar! Meu nome é Ricardo Fuhrmann, sou desenvolvedor full stack e moro em Dourados/MS. Minha área de atuação é desenvolvimento de sistemas, minha especialidade é PHP, mas também tenho experiência com desenvolvimento de aplicativos e interesse geral em tecnologia.
@@ -17,7 +16,7 @@ Atualmente meus últimos trabalhos envolvem:
 - DevOps
 
 __Pelo o que eu me interesso__:
-Desenvolvimento, Aplicativos, Linux
+Desenvolvimento, Aplicativos, Linux, Música, Desenho
 
 __Gosto de programar em:__
 PHP, Javascript, Python, Dart, Vala
