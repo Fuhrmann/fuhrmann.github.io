@@ -1,3 +1,5 @@
+![blog](index.png)
+
 This is my personal website/blog developed with [Hexo](https://hexo.io).
 
 You can check it out here: https://ricardof.dev
