@@ -1,0 +1,24 @@
+version: "3"
+
+networks:
+  proxy:
+    external: true
+
+services:
+  hexo:
+    image: spurin/hexo
+    container_name: ricardof.dev
+    env_file: .env
+    networks:
+      - proxy
+    volumes:
+      - .:/app/
+
+  node:
+    image: node:13.7-alpine
+    container_name: ricardof.dev-npm
+    working_dir: /app
+    volumes:
+      - .:/app
+    entrypoint: ['npm']
+

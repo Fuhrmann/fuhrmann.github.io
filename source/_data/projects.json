@@ -1,5 +1,10 @@
 [
     {
+        "name": "copr-specs",
+        "url": "https://github.com/Fuhrmann/copr-specs",
+        "desc": "Collection of spec files for apps not available in Fedora."
+    },
+    {
         "name": "albert-theme-builder",
         "url": "https://albertlauncher.github.io/docs/extensions/widgetboxmodel/themecreator/",
         "desc": "A tool to create themes for Albert launcher."
@@ -12,12 +17,12 @@
     {
         "name": "keypirinha-volumecontrol",
         "url": "https://github.com/Fuhrmann/keypirinha-volumecontrol",
-        "desc": "Increase, decrease, mute or unmute the volume on Windows using Keypirinha."
+        "desc": "Control the volume using Keypirinha."
     },
     {
         "name": "keypirinha-phpdocsearch",
         "url": "https://github.com/Fuhrmann/keypirinha-phpdocsearch",
-        "desc": "Search for functions, classes and everything else related to the PHP documentation directly from Keypirinha launcher."
+        "desc": "PHP documentation directly from Keypirinha launcher."
     },
     {
         "name": "keypirinha-gitmoji",
@@ -27,6 +32,6 @@
     {
         "name": "keypirinha-moviedb",
         "url": "https://github.com/Fuhrmann/keypirinha-moviedb",
-        "desc": "Search through TMDB (themoviedb.org) for movies, TV shows and people."
+        "desc": "Search through TMDB directly from Keypirinha."
     }
 ]

@@ -5,10 +5,10 @@
 # Site
 title: Ricardo Fuhrmann
 subtitle: 
-description: Sou desenvolvedor full stack com experiência em desenvolvimento de sistemas e aplicativos. Interessado por tecnologia, música e desenho.
+description: Full stack developer with experience in developing systems and applications. Interested in technology, music and drawings.
 keywords:
 author: Ricardo Fuhrmann
-language: pt-br
+language: en
 timezone: America/Campo_Grande
 
 # URL
@@ -22,7 +22,7 @@ permalink_defaults:
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: arquivo
+archive_dir: archive
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
@@ -62,7 +62,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: DD-MM-YYYY
+date_format: YYYY-MM-DD
 time_format: HH:mm
 
 # Pagination
@@ -84,6 +84,36 @@ deploy:
 
 theme_config:
   colorscheme: dark
+  nav:
+    home: /
+    about: /about/
+    articles: /archive/
+    projects: https://github.com/Fuhrmann?utf8=%E2%9C%93&tab=repositories&q=&type=source&language=
+  social_links:
+    github: https://github.com/Fuhrmann
+    twitter: https://twitter.com/Fuhrmanns
+    mail: contato@ricardof.dev
+  copyright:
+    start_year: 2019
+    end_year:
+  logo:
+    enabled: true
+    width: 50
+    height: 50
+    gravatar: false
+    url: /images/fav.ico
+  favicon:
+    desktop:
+      url: /images/fav.ico
+      gravatar: false
+    android:
+      url: /images/fav.ico
+      gravatar: false
+    apple:
+      url: /images/fav.ico
+      gravatar: false
+  gravatar:
+    email: fuhrmanns@gmail.com
 
 sitemap:
   path: sitemap.xml
