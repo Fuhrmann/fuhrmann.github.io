@@ -5,6 +5,7 @@
     --body-bg: #fff;
     --primary-font-color: #000;
     --border-color: #dadada;
+    --link-color: #122edc;
 }
 
 [data-theme="dark"] {
@@ -13,6 +14,7 @@
   --body-bg: #10171e;
   --primary-font-color: #bfbfbf;
   --border-color: #6a6a6a;
+  --link-color: #8d98d3;
 }
 
 body{
@@ -24,26 +26,26 @@ body{
   padding: 5px;
 }
 .container{
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: wrap; 
-  justify-content: space-between; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 60%;
-  margin-left: auto; 
+  margin-left: auto;
   margin-right: auto;
 }
 .post-container{
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: wrap; 
-  justify-content: space-between; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
 }
 
 .footer{
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: wrap; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
   padding: 5px 10px;
@@ -53,11 +55,11 @@ body{
 }
 
 .post-list{
-  width: 100%; 
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: wrap; 
-  justify-content: space-between; 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   padding: 5px 10px;
   margin-bottom: 5px;
@@ -73,11 +75,11 @@ body{
 .post-list .post-date{width: 20%; text-align: right;}
 
 .post-header{
-  width: 100%; 
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: wrap; 
-  justify-content: space-between; 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   padding: 5px 10px;
   margin-bottom: 5px;
@@ -90,10 +92,10 @@ body{
 .post-header .post-share a{display: flex;}
 
 .tags-container{
-  width: 100%; 
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: wrap; 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -105,11 +107,11 @@ body{
 .tag{background: var(--bg-color); padding: 5px 10px; margin-right: 10px; margin-bottom: 10px; display: flex; align-items: center;}
 
 .navigation{
-  width: 100%; 
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: nowrap; 
-  justify-content: space-between; 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 5px;
   background:var(--bg-color);
@@ -120,11 +122,11 @@ body{
 .navigation .next{width: 45%; color: var(--primary-font-color); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-weight: 600; text-align: right; padding: 5px 10px;}
 
 .pagination{
-  width: 100%; 
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: wrap; 
-  justify-content: space-between; 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   padding: 5px 10px;
   margin-bottom: 5px;
@@ -137,15 +139,18 @@ body{
   width: 100%;
   font-size: 18px;
 }
+.blog-post-content a {
+  color: var(--link-color);
+}
 
 .post-tag{background: var(--bg-color); color:var(--primary-font-color); padding: 5px 10px;}
 
 .profile{
-  width: 100%; 
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: wrap; 
-  justify-content: space-between; 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   padding: 5px 10px;
   margin-bottom: 20px;
