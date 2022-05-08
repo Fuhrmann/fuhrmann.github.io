@@ -1,0 +1,17 @@
+version: "3.7"
+
+networks:
+  proxy:
+    external: true
+
+services:
+  jekyll:
+    container_name: ricardof.dev
+    image: jekyll/jekyll:latest
+    command: jekyll serve --watch --force_polling --verbose --livereload
+    ports:
+      - "4000:4000"
+    networks:
+        - proxy
+    volumes:
+      - .:/srv/jekyll

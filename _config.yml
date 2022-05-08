@@ -1,0 +1,82 @@
+# Site settings
+site: Ricardo Fuhrmann
+title: Ricardo Fuhrmann
+keywords: fuhrmann, blog
+description: >-
+  Ricardo Fuhrmann - Blog
+lang: pt-BR
+timezone:  America/Campo_Grande
+#repo: https://github.com/onepase/Ephesus
+#google_verify:      XXX # Put your Google Verification here
+#google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
+#discus-identifier:  XXX
+
+# Author settings
+author:
+  name: Ricardo Fuhrmann
+  bio: Engenheiro de Software @fuhrmanns <br> Tecnologia <br> Open Source /#linux
+  picture: assets/images/profile.jpeg
+  github: Fuhrmann # github username
+  linkedin: ricardovfuhrmann # linkedin username
+  #twitter: onepase # twitter username
+  #facebook: onepase # facebook username
+  #instagram: onepase # instagram username
+  #youtube: https://www.youtube.com/channel/UCMmAto-wxBootXN91AzBiDg # youtube username
+  #email: your-email@email.com # email adress
+
+
+# URL settings
+url: "https://ricardof.dev" # Domain Name of host. [username].github.io for github pages
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+paginate: 20
+paginate_path: "/page/:num"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
