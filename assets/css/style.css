@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700&subset=latin-ext');
 :root {
-    --bg-color: #fafafa;
-    --bg-hover-color: #ececec;
-    --body-bg: #fff;
-    --primary-font-color: #000;
-    --border-color: #dadada;
-    --link-color: #122edc;
+  --bg-color: #fafafa;
+  --bg-hover-color: #ececec;
+  --body-bg: #fff;
+  --primary-font-color: #000;
+  --border-color: #dadada;
+  --link-color: #122edc;
+  --tags-color: #c7c2c2;
 }
 
 [data-theme="dark"] {
@@ -15,6 +16,7 @@
   --primary-font-color: #bfbfbf;
   --border-color: #6a6a6a;
   --link-color: #8d98d3;
+  --tags-color: #161f29;
 }
 
 body{
@@ -98,7 +100,7 @@ body{
   flex-wrap: wrap;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .post-tag{margin-bottom: 5px;}
@@ -143,7 +145,7 @@ body{
   color: var(--link-color);
 }
 
-.post-tag{background: var(--bg-color); color:var(--primary-font-color); padding: 5px 10px;}
+.post-tag{background: var(--tags-color); color:var(--primary-font-color); padding: 5px 10px;}
 
 .profile{
   width: 100%;

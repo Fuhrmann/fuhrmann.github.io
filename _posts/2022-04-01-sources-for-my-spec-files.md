@@ -1,9 +1,10 @@
 ---
 title: "Sources for my spec files on Fedora"
-date: 2022-04-01T00:00:00+00:00
+date: 2022-04-01
 author: Ricardo Fuhrmann
 layout: post
 permalink: /sources-for-my-spec-files-fedora/
+tags: fedora linux
 ---
 
 These are my spec files of some apps that are not available for Fedora. The specs are used in [copr](https://copr.fedorainfracloud.org/coprs/fuhrmann) to build the packages.

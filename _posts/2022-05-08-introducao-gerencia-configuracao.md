@@ -1,10 +1,11 @@
 ---
 title: "Introdução à Gerência da Configuração"
-date: 2022-05-08T00:00:00+00:00
+date: 2022-05-08
 author: Ricardo Fuhrmann
 layout: post
 permalink: /introducao-gerencia-da-configuracao/
-categories: introducao
+categories: software
+tags: software
 ---
 
 Softwares estão sempre mudando, novas versões, novos recursos, novos requisitos. A maioria dos sistemas pode ser pensado como um conjunto de versões, onde cada uma necessita de gerenciamento e que seja mantido um histórico. Este gerenciamento de configuração está ligado com as políticas, processos e ferramentas para o gerenciamento de mudanças de tais sistemas.

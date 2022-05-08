@@ -1,10 +1,11 @@
 ---
 title: "Personalizando o seu terminal Tilix"
-date: 2019-06-04T00:00:00+00:00
+date: 2019-06-04
 author: Ricardo Fuhrmann
 layout: post
 permalink: /personalizando-terminal-tilix/
 categories: terminal
+tags: tutorial linux terminal
 ---
 
 ## Introdução
