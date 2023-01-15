@@ -1,5 +1,3 @@
-![blog](blog.png)
-
 This is my personal website/blog developed with [Jekyll](https://jekyllrb.com).
 
 You can check it out here: https://ricardof.dev
