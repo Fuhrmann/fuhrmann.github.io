@@ -8,7 +8,7 @@ layout: default
 
 <div class="blog-post-content">
     <div class="post-back"><a href="{{ site.url }}">« home</a></div>
-    <div class="post-date">{{ page.date | date: "%d.%m.%Y" }} | {{ page.content | reading_time }}</div>
+    <div class="post-date">{{ page.date | date: "%d.%m.%Y" }} | {% include reading_time.html %}</div>
     <h1 class="post-title">{{ page.title }}</h1>
     {% include anchor_headings.html html=content anchorBody="#" beforeHeading=false h_min=2 h_max=3 anchorClass="post-anchor" %}
 </div>
