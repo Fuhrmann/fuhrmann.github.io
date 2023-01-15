@@ -2,5 +2,14 @@
 	{{ content | number_of_words | minus: 180 }}
 {% endcapture %}
 {% unless words contains '-' %}
-	{{ words | plus: 150 | divided_by: 150 | append: ' minutos de leitura' }}
+	{% capture reading_time %}
+		{{ words | plus: 150 | divided_by: 150 }}
+	{% endcapture %}
+	{% assign reading_time = reading_time | plus: 0 %}
+
+	{% if reading_time > 1 %}
+		{{ reading_time | append: ' minutos de leitura' }}
+	{% else %}
+		{{ reading_time | append: ' minuto de leitura' }}
+	{% endif %}
 {% endunless %}
