@@ -24,6 +24,10 @@ body {
   margin: 0;
   padding: 10px;
 }
+hr {
+  border: 1px solid #282626;
+  width: 100%;
+}
 .container{
   display: flex;
   flex-direction: row;
@@ -39,6 +43,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  margin-top: 10px;
 }
 
 .footer{
