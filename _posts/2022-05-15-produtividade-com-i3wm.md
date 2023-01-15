@@ -3,7 +3,6 @@ title: "Produtividade com i3wm"
 date: 2022-05-15
 author: Ricardo Fuhrmann
 layout: post
-permalink: /produtividade-com-i3wm/
 tags: software
 ---
 

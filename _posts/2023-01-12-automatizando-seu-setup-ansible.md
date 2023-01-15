@@ -37,7 +37,7 @@ Neste artigo vamos simular a configuração automatizada com o Ansible em uma m�
 
 Para começar, crie um arquivo chamado `inventory.yaml` e dentro dele defina:
 
-```ini
+```conf
 vms:
   hosts:
     fedora:

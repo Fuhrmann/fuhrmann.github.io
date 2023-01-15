@@ -6,27 +6,31 @@ description: >-
   Ricardo Fuhrmann - Blog
 lang: pt-BR
 timezone:  America/Campo_Grande
-#repo: https://github.com/onepase/Ephesus
 #google_verify:      XXX # Put your Google Verification here
 #google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
 #discus-identifier:  XXX
+
+reading_time:
+  words_per_minute: 150
+  translations:
+    about: leitura de
+    minute: minuto
+    minutes: minutos
 
 # Author settings
 author:
   name: Ricardo Fuhrmann
   bio: Engenheiro de Software @fuhrmanns <br> Tecnologia <br> Open Source /#linux
-  picture: assets/images/profile.jpeg
   github: Fuhrmann # github username
-  linkedin: ricardovfuhrmann # linkedin username
-  #twitter: onepase # twitter username
-  #facebook: onepase # facebook username
+  #linkedin: ricardovfuhrmann # linkedin username
+  #twitter: Fuhrmann
   #instagram: onepase # instagram username
   #youtube: https://www.youtube.com/channel/UCMmAto-wxBootXN91AzBiDg # youtube username
   #email: your-email@email.com # email adress
 
-
 # URL settings
-url: "https://blog.ricardof.dev" # Domain Name of host. [username].github.io for github pages
+# Domain Name of host. [username].github.io for github pages
+url: "https://blog.ricardof.dev" 
 permalink: pretty
 
 markdown: kramdown
@@ -35,6 +39,7 @@ kramdown:
   syntax_highlighter: rouge
 
 exclude:
+  - vendor
   - .jekyll-cache
   - .obsidian
   - Gemfile
@@ -47,6 +52,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-relative-links
+  - jekyll_reading_time
+
 paginate: 20
 paginate_path: "/page/:num"
 
@@ -78,5 +85,5 @@ defaults:
       layout: "post"
 
 relative_links:
-  enabled:     true
+  enabled: true
   collections: false

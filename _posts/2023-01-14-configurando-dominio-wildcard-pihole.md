@@ -7,13 +7,13 @@ permalink: /configurando-dominio-wildcard-pihole/
 tags: linux, pihole
 ---
 
-Caso esteja utilizando a Pihole no seu setup atual para bloquear propagandas e esteja configurada como o seu DNS resolver essa é uma das formas de fazer a resolução de subdomínios para um domínio específico.
+Caso esteja utilizando [Pihole](https://pi-hole.net/) no seu setup atual para bloquear propagandas e esteja configurada como o seu DNS resolver essa é uma das formas de fazer a resolução de subdomínios para um domínio específico.
 
 No seu ambiente de desenvolvimento quando quiser apontar subdomínios diferentes de um mesmo domínio, exemplo, `*.local.dev`, onde o asterisco pode ser qualquer subdomínio devemos configurar a PiHole para saber como resolver e para qual IP apontar, visto que ela está sendo usada como servidor de DNS principal da rede.  
 
 Para fazer isso entre na pasta `/etc/dnsmas.q`  (caso esteja utilizando a Pihole através do docker, a pasta é `etc-dnsmasq.d`) e crie um novo arquivo chamado `02-my-wildcard-dns.conf` com o seguinte conteúdo:
 
-``` 02-my-wildcard-dns.conf
+```conf
 address=/local.dev/192.168.1.20
 ```
 
@@ -21,7 +21,7 @@ address=/local.dev/192.168.1.20
 
 Salve o arquivo e reinicie o serviço de DNS:
 
-```bash
+```shell
 pihole restartdns
 ```
 

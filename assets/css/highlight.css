@@ -1,4 +1,3 @@
-.highlight { padding: 8px; }
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight .gh {
@@ -22,19 +21,19 @@
   color: #f6aa11;
 }
 .highlight .cm {
-  color: #75715e;
+  color: #5F9EA0;
 }
 .highlight .cp {
-  color: #75715e;
+  color: #5F9EA0;
 }
 .highlight .c1 {
-  color: #75715e;
+  color: #5F9EA0;
 }
 .highlight .cs {
-  color: #75715e;
+  color: #5F9EA0;
 }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
-  color: #75715e;
+  color: #5F9EA0;
 }
 .highlight .err {
   color: #960050;
@@ -136,48 +135,68 @@
   color: #a6e22e;
 }
 .highlight .vc {
-  color: #ffffff;
-  background-color: #272822;
+  color: #00cdcd;
+  /* no need background color */
+  /*background-color: #272822;*/
 }
 .highlight .nn {
-  color: #ffffff;
-  background-color: #272822;
+  color: #00cdcd;
+  /* no need background color */
+  /*background-color: #272822;*/
 }
 .highlight .nl {
-  color: #ffffff;
-  background-color: #272822;
+  color: #00cdcd;
+  /* no need background color */
+  /*background-color: #272822;*/
 }
 .highlight .ni {
-  color: #ffffff;
-  background-color: #272822;
+  color: #00cdcd;
+  /* no need background color */
+  /*background-color: #272822;*/
 }
 .highlight .bp {
-  color: #ffffff;
-  background-color: #272822;
+  color: #00cdcd;
+  /* no need background color */
+  /*background-color: #272822;*/
 }
 .highlight .vg {
-  color: #ffffff;
-  background-color: #272822;
+  color: #00cdcd;
+  /* no need background color */
+  /*background-color: #272822;*/
 }
 .highlight .vi {
-  color: #ffffff;
-  background-color: #272822;
+  color: #00cdcd;
+  /* no need background color */
+  /*background-color: #272822;*/
 }
 .highlight .nv, .highlight .vm {
-  color: #ffffff;
-  background-color: #272822;
+  color: #00cdcd;
+  /* no need background color */
+  /*background-color: #272822;*/
 }
 .highlight .w {
   color: #ffffff;
-  background-color: #272822;
+  /* no need background color */
+  /*background-color: #272822;*/
 }
 .highlight {
   color: #ffffff;
   background-color: #272822;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
 }
-.highlight .n, .highlight .py, .highlight .nx {
+/* Name */
+.highlight .n {
   color: #ffffff;
-  background-color: #272822;
+}
+.highlight .py, .highlight .nx {
+  color: #ffffff;
+  /* no need background color */
+  /*background-color: #272822;*/
 }
 .highlight .ow {
   color: #f92672;
@@ -196,4 +215,8 @@
 }
 .highlight .o {
   color: #f92672;
+}
+/* brace */
+.highlight .p, .highlight .pi {
+  color: #fbf1c7;
 }
