@@ -124,7 +124,7 @@ Você verá o arquivo de `config.h` dentro da pasta `~/apps/keyboard/keymap/conf
 
 Para especificar a leader key (`KC_LEAD`) temos que editar o arquivo `~/apps/keyboard/keymap/keymap.c` que baixamos no início do artigo. Ao abrir este arquivo você irá se deparar com o layout do keyboard definido desta forma:
 
-![[Pasted image 20230115222526.png]]
+![1.png](/assets/images/customizando-dropalt-firmware/1.png)
 
 Onde cada linha de teclas do seu teclado é representado por uma linha da tabela acima e cada coluna respectivamente.
 
@@ -132,7 +132,7 @@ Note que existem três camadas (layers): a primeira (0) será a sua camada padr�
 
 Na primeira camada, escolha uma das teclas para representar a sua tecla `KC_LEAD`. Neste caso eu defini a <kbd>Caps Lock</kbd>:
 
-![[Pasted image 20230115223236.png]]
+![2.png](/assets/images/customizando-dropalt-firmware/2.png)
 
 ## Especificando o comportamento
 
